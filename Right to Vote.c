@@ -1,21 +1,18 @@
 #include <stdio.h>
 
-int
-main() {
+int main() {
 
-    int number;
-    number = 18;
+    int age = 18;
 
-    printf("Enter your age:");
+    printf("How old are you: ");
+    scanf("%d", &age);
 
-    scanf("%d", &number);
-    if (number >= 18)
-        printf("Yes you can vote");
+    if (age >= 18) {
+        printf("You are eligible to vote.");
+    }
     else {
-        (18 < number);
-        printf("You are not allowed to vote.");
+        printf(" You are to young to vote!");
     }
 
     return 0;
-
 }
