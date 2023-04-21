@@ -173,44 +173,8 @@ void HospitalManagement::findSpecialist() {
 
     std::string issue;
     std::cin >> issue;
-    /*std::ifstream newPatient("NewPatient");*/
-    /*std::cout << "Find your Specialist: \n\n";std::cout << "Please enter your area of issue:\n";
-    std::cout << "Enter integer 1-7 regarding issue:\n";
-
-    std::cout << "1. heart\n";
-    std::cout << "2. brain \n";
-    std::cout << "3. digestive_system \n";
-    std::cout << "4. cancer \n";
-    std::cout << "5. skin_issue \n";
-    std::cout << "6. infection \n";
-    std::cout << "7. eyes \n";
-
-    //Define the mapping between areas of issue and specialists
-    std::map<std::string, std::string> specialist_map = {
-            {"1", "cardiologist"},
-            {"2", "neurologist"},
-            {"3", "gastroenterologist"},
-            {"4", "oncologist"},
-            {"5", "dermatologist"},
-            {"6", "infection_specialist"},
-            {"7", "ophthalmologist"}
-    };*/
-
-    /*std::ifstream newPatient("NewPatient");*/
-
-    /*std::string issue;
-    std::cin >> issue;*/
-
-    /// Check if the input issue is in the mapping
-    /*auto it = specialist_map.find(issue);
-    if (it != specialist_map.end()) {
-        std::cout << "You require a " << it->second << std::endl;
-    } else {
-        std::cout << "Sorry, we do not have a specialist for that issue.\n";
-    }*/
+    
 }
-
-
 
 void HospitalManagement::checkoutPatient() {
     std::string specialist;
